@@ -1,0 +1,16 @@
+[plugin]
+enabled = true
+config_version = "1.0.0"
+
+[service]
+url = "http://127.0.0.1:8766"
+# 服务没开时自动启动（留空就要你自己先开）。Windows 例子见 qqbot-music 的 README。
+start_command = ""
+start_cwd = ""
+start_seconds = 120
+
+[sing]
+allow_full = true
+chorus_timeout = 600
+full_timeout = 3600
+voice_rate = 24000
